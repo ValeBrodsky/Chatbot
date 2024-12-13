@@ -49,9 +49,9 @@ var len1 = data.chatinit.title.length;
 
 function showChatBot() {
     console.log(this.innerText);
-    if (this.innerText === "Iniciar conversación") {
+    if (this.innerText === "Start conversation") {
         document.getElementById("test").style.display = "block";
-        document.getElementById("init").innerText = "Terminar conversación";
+        document.getElementById("init").innerText = "End conversation";
         initChat();
     } else {
         location.reload();
